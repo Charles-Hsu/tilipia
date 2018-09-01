@@ -21,7 +21,7 @@ POST 取得 token
 | `GET` | /lottery-name-list | 取得全部彩種名稱清單 ||
 | `GET` | /lottery/time | 取得單一彩票時間設定表 | /lottery/time?gameid=A001, 取回 gameid 為 A001 的時間設定清單 |
 | `GET` | /user/list | 取得用戶清單 | /usr/list?page=0&user-num-per-page=10, 第0頁, 每頁10筆, 預設值:page=0,user-num-per-page=25|
-| `GET` | /lottery-name-list | 取得全部彩種名稱清單 ||
+| `GET` | /lottery-name-list | 取得全部彩種名稱清單 | /lottery-name-list?is-all=1 包含六合彩, 如果未設則不包括六合彩的彩種名單 |
 | `POST` | /lottery/time/:gameID | 更新彩票時間設定 ||
 
 
