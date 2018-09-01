@@ -17,6 +17,17 @@ POST 取得 token
 | --- | --- | --- |
 | `POST` | /login | username, password 取得 token |
 | `GET` | /params | 取回全部的系統參數設定 |
+| `GET` | /param/lotteries | 取得全部的彩種設定 |
+| `GET` | /lottery-name-list | 取得全部彩種名稱清單 |
+| `GET` | /lottery/time | 取得單一彩票時間設定表 |
+| `GET` | /user/list | 取得用戶清單 |
+| `GET` | /lottery-name-list | 取得全部彩種名稱清單 |
+| `POST` | /lottery/time/:gameID | 更新彩票時間設定 |
+
+
+
+
+
 
 | Left-aligned | Center-aligned | Right-aligned |
 | :---         |     :---:      |          ---: |
