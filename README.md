@@ -14,20 +14,11 @@
 | `POST` | /lottery/time/:gameID | 更新彩票時間設定 | /lottery/time/A001 表示更新 A001 的 actionNo(期數), actionTime(開獎時間), 放在 ajax 的 data 裡 |
 
 
-
-
-
-
 | Left-aligned | Center-aligned | Right-aligned |
 | :---         |     :---:      |          ---: |
 | POST   | git status     | git status    |
 | git diff     | git diff       | git diff      |
 
-
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
 
 - Kevin 的電子郵件 sasdj2418@gmail.com
 - Penny 的電子郵件 lyly0221@gmail.com
