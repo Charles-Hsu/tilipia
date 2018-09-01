@@ -1,6 +1,6 @@
 
 # tilipia
-台灣鯛的英文名字, 生存能力強, 詳見 Wikipedia [Tilapia]() https://en.wikipedia.org/wiki/Tilapia).
+台灣鯛的英文名字, 生存能力強, 詳見 Wikipedia [Tilapia](https://en.wikipedia.org/wiki/Tilapia).
 
 
 POST("/login")
