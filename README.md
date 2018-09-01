@@ -16,7 +16,7 @@ POST 取得 token
 | 方法 | API | 說明 |
 | --- | --- | --- |
 | `POST` | /login | username, password 取得 token |
-| `git diff` | Show file differences that **haven't been** staged |
+| `GET` | /params | 取回全部的系統參數設定 |
 
 | Left-aligned | Center-aligned | Right-aligned |
 | :---         |     :---:      |          ---: |
