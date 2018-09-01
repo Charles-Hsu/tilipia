@@ -13,16 +13,16 @@ POST 取得 token
 // 未指定時 page 預設值為 0, user-num-per-page 預設值為 25
 // 回傳值: total: 用戶總數, result: 用戶清冊
 
-| 方法 | API | 說明 |
-| --- | --- | --- |
-| `POST` | /login | username, password 取得 token |
-| `GET` | /params | 取回全部的系統參數設定 |
-| `GET` | /param/lotteries | 取得全部的彩種設定 |
-| `GET` | /lottery-name-list | 取得全部彩種名稱清單 |
-| `GET` | /lottery/time | 取得單一彩票時間設定表 |
-| `GET` | /user/list | 取得用戶清單 |
-| `GET` | /lottery-name-list | 取得全部彩種名稱清單 |
-| `POST` | /lottery/time/:gameID | 更新彩票時間設定 |
+| 方法 | API | 說明 | 範例 |
+| --- | --- | --- | --- |
+| `POST` | /login | username, password 取得 token ||
+| `GET` | /params | 取回全部的系統參數設定 ||
+| `GET` | /param/lotteries | 取得全部的彩種設定 ||
+| `GET` | /lottery-name-list | 取得全部彩種名稱清單 ||
+| `GET` | /lottery/time | 取得單一彩票時間設定表 ||
+| `GET` | /user/list | 取得用戶清單 | /usr/list?page=0&user-num-per-page=25, 第0頁, 每頁25筆|
+| `GET` | /lottery-name-list | 取得全部彩種名稱清單 ||
+| `POST` | /lottery/time/:gameID | 更新彩票時間設定 ||
 
 
 
