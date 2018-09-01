@@ -20,7 +20,7 @@ POST 取得 token
 | `GET` | /param/lotteries | 取得全部的彩種設定 ||
 | `GET` | /lottery-name-list | 取得全部彩種名稱清單 ||
 | `GET` | /lottery/time | 取得單一彩票時間設定表 ||
-| `GET` | /user/list | 取得用戶清單 | /usr/list?page=1&user-num-per-page=10, 第1頁, 每頁10筆, 預設值:page=0,user-num-per-page=25|
+| `GET` | /user/list | 取得用戶清單 | /usr/list?page=0&user-num-per-page=10, 第0頁, 每頁10筆, 預設值:page=0,user-num-per-page=25|
 | `GET` | /lottery-name-list | 取得全部彩種名稱清單 ||
 | `POST` | /lottery/time/:gameID | 更新彩票時間設定 ||
 
